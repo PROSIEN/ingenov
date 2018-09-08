@@ -499,6 +499,28 @@ header.masthead .intro-text .intro-heading {
   margin-bottom: 0;
 }
 
+.timeline .timeline-body > ul,
+.timeline .timeline-body > p {
+  margin-bottom: 0;
+}
+
+.description {
+  margin-left: 50px;
+}
+.description-nombre h4 {
+  margin-top: 50px;
+  color: inherit;
+}
+
+h4.description-cargo {
+  margin-top: 0;
+  text-transform: none;
+  color: inherit;
+}
+.description-cuerpo {
+
+}
+
 @media (min-width: 768px) {
   .timeline:before {
     left: 50%;
@@ -576,6 +598,7 @@ header.masthead .intro-text .intro-heading {
 .team-member {
   margin-bottom: 50px;
   text-align: center;
+  margin-left: 180px;
 }
 
 .team-member img {
