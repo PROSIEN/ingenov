@@ -505,7 +505,7 @@ header.masthead .intro-text .intro-heading {
 }
 
 .description {
-  margin-left: 50px;
+
 }
 .description-nombre h4 {
   margin-top: 50px;
@@ -574,7 +574,6 @@ h4.description-cargo {
     padding: 0 20px 20px;
   }
 }
-
 @media (min-width: 1200px) {
   .timeline > li {
     min-height: 170px;
@@ -594,11 +593,15 @@ h4.description-cargo {
     padding: 0 100px 20px 20px;
   }
 }
-
+@media (max-width: 992px) {
+  .team-member{
+    margin-left: 70px;
+  }
+}
 .team-member {
   margin-bottom: 50px;
   text-align: center;
-  margin-left: 180px;
+  position: relative;
 }
 
 .team-member img {
